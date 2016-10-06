@@ -23,6 +23,7 @@
                     });
                     dragger = new Draggable(element, {
                         type: "y",
+                        autoScroll: 1,
                         bounds: element.parent()[0],
                         edgeResistance: 1,
                         onPress: sortablePress,
