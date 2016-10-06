@@ -1,0 +1,20 @@
+<ion-view class="homeView" view-title="Home" hide-nav-bar="true">
+	<ion-content overflow-scroll="false" has-bouncing="true">
+		<div class="card">
+			<ion-list can-swipe="true">
+				<ion-item draggable ng-repeat="user in users" ng-init="$last && triggerHold()">
+					<span class="row">
+                        <label class="col col-10 button-icon" style="padding:0;">
+							<i class="icon ion-arrow-move"></i>
+                        </label>
+						<b class="col">
+                            {{user.Name}}
+                        </b>
+					</span>
+					<ion-option-button class="button-light icon ion-edit"></ion-option-button>
+                    <ion-option-button class="button-assertive icon ion-trash-a"></ion-option-button>
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

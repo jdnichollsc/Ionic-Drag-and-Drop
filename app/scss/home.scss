@@ -1,0 +1,29 @@
+.homeView{
+	h1, button{
+		font-family: 'Jura';
+	}
+	h1 {
+		font-size: 7em;
+		color: white;
+	}
+	button{
+		font-size: 26px;
+	}
+	.scroll-content {
+		background: linear-gradient(145deg, #6C6C6C,#95A2AB,#206AA7, #00508D, #002F57, #442144);
+		background-size: 800% 800%;
+		animation: background 26s ease infinite;
+		
+		.scroll{
+			height: 100%;
+			.row-center {
+				height: 100%;
+			}
+		}
+	}
+}
+@keyframes background { 
+	0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
