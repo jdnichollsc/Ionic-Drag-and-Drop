@@ -5,8 +5,8 @@
 		.module('App')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$scope', 'Model'];
-	function HomeController($scope, Model) {
+	HomeController.$inject = ['$scope', 'Model', '$ionicPlatform'];
+	function HomeController($scope, Model, $ionicPlatform) {
 
 		$scope.users = [];
 		
@@ -16,8 +16,10 @@
 		};
 
 		$scope.$on('$ionicView.beforeEnter', function(){
-			Model.Users.getAll().then(function (users) {
-				$scope.users = angular.copy(users);
+			$ionicPlatform.ready(function () {
+				Model.Users.getAll().then(function (users) {
+					$scope.users = angular.copy(users);
+				});
 			});
 		});
 	}

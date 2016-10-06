@@ -5,8 +5,15 @@
     "ionic": "driftyco/ionic-bower#master"
   },
   "preen": {
+    "gsap": [
+      "src/minified/TweenMax.min.js",
+      "src/minified/utils/Draggable.min.js"
+    ],
     "ngCordova": [
       "dist/ng-cordova.min.js"
     ]
+  },
+  "dependencies": {
+    "gsap": "^1.19.0"
   }
 }
