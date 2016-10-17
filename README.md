@@ -22,7 +22,7 @@ Do you want to see this chat in action? Visit https://jdnichollsc.github.io/Ioni
 - **[Ionic Starter Template](http://market.ionic.io/starters/ionic-starter-template)**
 - **[Ionic ElastiChat](https://jdnichollsc.github.io/Ionic-ElastiChat-with-Images/)**
 - **[IonPhaser](http://market.ionic.io/plugins/ionphaser)**
-- **[Game of Drones (Ionic/Jasmine/Karma/Protractor/Node.js/MongoDB/Mongoose.js)](https://github.com/jdnichollsc/Game-of-Drones)**
+- **[Game of Drones](https://github.com/jdnichollsc/Game-of-Drones)**
 
 # Credits
 - GSAP Team: http://codepen.io/osublake/pen/jrqjdy/?editors=0010
