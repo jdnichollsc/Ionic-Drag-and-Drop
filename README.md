@@ -1,4 +1,4 @@
-#**The Best Ionic v1.x drag and drop plugin**
+# **The Best Ionic v1.x drag and drop plugin**
 
 *Ionic Drag and Drop items with GSAP Draggable!*
 
@@ -7,7 +7,7 @@
 Do you want to see this chat in action? Visit https://jdnichollsc.github.io/Ionic-Drag-and-Drop/ yay!
 > Automatically deployed to GitHub Pages using Gulp - Check the **last task** into [gulpfile.js](https://github.com/jdnichollsc/Ionic-Starter-Template/blob/master/gulpfile.js)
 
-#Instructions
+# Instructions
 
 1. Download this template.
 2. Execute the command `npm install`
